@@ -1,0 +1,2 @@
+scrape_url: https://example.com/changelog.html
+webhook_url: https://discord.com/api/webhooks/your/webhook
