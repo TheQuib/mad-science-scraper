@@ -3,6 +3,11 @@ name: Publish Container
 on:
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'README.md'
+      - 'config.yml.example'
+      - 'LICENSE'
+      - 'docker-compose.yml'
 
 permissions:
   contents: read
