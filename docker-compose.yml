@@ -1,6 +1,6 @@
 services:
   mad-science-scraper:
-    build: .
+    image: ghcr.io/thequib/mad-science-scraper:latest
     container_name: mad-science-scraper
     restart: unless-stopped
     environment:
